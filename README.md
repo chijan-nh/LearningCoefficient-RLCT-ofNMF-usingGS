@@ -31,6 +31,7 @@ Moreover, I used the following packages:
 ## Ensure
 
 Numerical calculation for the real log canonical threshold (RLCT a.k.a. learning coefficient) of Bayesian NMF,
+via the Bayesian generalization error averaged overall simulations,
 when the posterior distribution is realized by Gibbs sampling and the prior of the parameter matrix is a gamma distribution.
 
 ## Contents
