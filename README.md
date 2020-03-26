@@ -45,7 +45,7 @@ when the posterior distribution is realized by Gibbs sampling and the prior of t
 
 From the theoretical result [1], the RLCT depends on the hyperparamter and the lower bound of the variational approximation error drastically changes when the hyperparamter is changed (see also the following image). 
 
-[image/PhaseTrans-withdesc.png](image/PhaseTrans-withdesc.png)
+![image/PhaseTrans-withdesc.png](image/PhaseTrans-withdesc.png "Phase diagram of NMF about the hyperparamter")
 
 The phenomenon is called "phase transition" and the critical line is called "phase transition line". The exact phase transition line of variational Bayesian NMF (VBNMF) is clarified by Kohjima and Watanabe [2] (see the blue line); however, that of Bayesian NMF had not yet derived. Our paper has theoretically derived the upper bound of the RLCT and the lower bound of the variational approximation error with a phase transition line (see the red dashed line). The details in the markdown cells in the Jupyter notebook file `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb` and the paper [1]. This code is used for the experiment to verify the numerical behavior of our theorem.
 
