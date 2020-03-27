@@ -28,7 +28,7 @@ Moreover, I used the following packages:
   "SpecialFunctions" => v"0.9.0"
 ```
 
-For installation, use `project.toml`:
+For installation via `project.toml`, use the following:
 ```shell
 cd thisrepo
 julia --project=.
@@ -40,17 +40,17 @@ Pkg> instantiate
 
 ### Using ipynb file
 
-1. Open `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb`.
+1. Open `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb` on Jupyter.
 
-2. (If need) set parameters such the result storage location path, the size of matrix, the number of simulations, the sample size, etc. in the third code cell.
+2. (If need) set parameters such the result storage location path, the size of matrix, the number of simulations, the sample size, hyperparameter, etc. in the third code cell.
 
-3. Run all.
+3. Run all from the first cell.
 
 ### Using jl file
 
 1. (If need) set parameters such the result storage location path, the size of matrix, the number of simulations, the sample size, etc.
 
-2. Run ```$ julia Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl```
+2. Run ```$ julia Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl```.
 
 ## Ensure
 
@@ -64,8 +64,8 @@ when the posterior distribution is realized by Gibbs sampling and the prior of t
 * `README-j.md`: the Japanese version of the README file.
 * `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb`: the Jupyter Notebook file of the experiment code.
 * `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl`: the Julia code file exported by the above ipynb file.
-* `Project.toml`: the package file for instance installation.
-* `Manifest.toml`: the package file for instance installation.
+* `Project.toml`: the package file for instance installation packages.
+* `Manifest.toml`: the package file for instance installation packages.
 * `image/PhaseTrans-withdesc.png`: the following phase diagram of NMF.
 * `log/`: the default result storage directory.
 
