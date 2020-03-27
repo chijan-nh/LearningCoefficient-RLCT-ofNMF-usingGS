@@ -28,6 +28,30 @@ Moreover, I used the following packages:
   "SpecialFunctions" => v"0.9.0"
 ```
 
+For installation, use `project.toml`:
+```shell
+cd thisrepo
+julia --project=.
+]
+Pkg> instantiate
+```
+
+## Usage
+
+### Using ipynb file
+
+1. Open `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb`.
+
+2. (If need) set parameters such the result storage location path, the size of matrix, the number of simulations, the sample size, etc. in the third code cell.
+
+3. Run all.
+
+### Using jl file
+
+1. (If need) set parameters such the result storage location path, the size of matrix, the number of simulations, the sample size, etc.
+
+2. Run ```$ julia Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl```
+
 ## Ensure
 
 Numerical calculation for the real log canonical threshold (RLCT a.k.a. learning coefficient) of Bayesian NMF,
