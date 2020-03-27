@@ -64,7 +64,10 @@ when the posterior distribution is realized by Gibbs sampling and the prior of t
 * `README-j.md`: the Japanese version of the README file.
 * `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb`: the Jupyter Notebook file of the experiment code.
 * `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl`: the Julia code file exported by the above ipynb file.
+* `Project.toml`: the package file for instance installation.
+* `Manifest.toml`: the package file for instance installation.
 * `image/PhaseTrans-withdesc.png`: the following phase diagram of NMF.
+* `log/`: the default result storage directory.
 
 ## Theoretical Background
 
