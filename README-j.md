@@ -29,6 +29,30 @@
   "SpecialFunctions" => v"0.9.0"
 ```
 
+下記により，`project.toml`を通じたパッケージのインストールが行えます．
+```shell
+cd thisrepo
+julia --project=.
+]
+Pkg> instantiate
+```
+
+## 使い方
+
+### ipynbファイルの場合
+
+1. `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb`をJupyterで開きます.
+
+2. （必要なら）次のようなパラメータを設定します：結果の保存場所へのパス，行列のサイズ，シミュレーション回数，サンプルサイズ，ハイパーパラメータ，など．上記のipynbファイルの3番目のコードセルで変えられます．
+
+3. Run allにより1番目のセルから実行します．
+
+### jlファイルの場合
+
+1. 必要なら）次のようなパラメータを設定します：結果の保存場所へのパス，行列のサイズ，シミュレーション回数，サンプルサイズ，ハイパーパラメータ，など．
+
+2. 次のコマンドを実行します：```$ julia Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl```.
+
 ## 何をするプログラムか
 
 ポアソン＝ガンマモデルで構築したベイズ非負値行列分解の事後分布をギブスサンプリングによって実現した際のベイズ汎化誤差とWAICを数値計算し，
@@ -40,7 +64,10 @@
 * `README-j.md`: このファイル.
 * `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.ipynb`: 実験コードのJupyter notebookファイル.
 * `Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl`: 上記のipynbファイルから出力したJuliaコードファイル.
+* `Project.toml`: パッケージのインストールに用いるファイル.
+* `Manifest.toml`: パッケージのインストールに用いるファイル.
 * `image/PhaseTrans-withdesc.png`: 後述される非負値行列分解の相図.
+* `log/`: デフォルトな結果の保存先ディレクトリ.
 
 ## 理論的背景
 
