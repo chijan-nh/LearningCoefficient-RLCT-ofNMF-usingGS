@@ -48,7 +48,7 @@ Pkg> instantiate
 
 ### Using jl file
 
-1. (If need) set parameters such the result storage location path, the size of matrix, the number of simulations, the sample size, etc.
+1. (If need) set parameters such the result storage location path, the size of matrix, the number of simulations, the sample size, hyperparameter, etc.
 
 2. Run ```$ julia Julia_calculate_RLCT_of_NMF_by_GS_NEUNET.jl```.
 
